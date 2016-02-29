@@ -1,0 +1,21 @@
+{
+  "name": "simple-vhost-example",
+  "version": "1.0.0",
+  "description": "Simple Hapi.js vhost example",
+  "main": "index.js",
+  "dependencies": {
+    "glue": "^3.2.0",
+    "hapi": "^13.0.0",
+    "hoek": "^3.0.4"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "clean": "rimraf node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AaronNGray",
+  "license": "MIT"
+}

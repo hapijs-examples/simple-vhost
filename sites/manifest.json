@@ -1,0 +1,37 @@
+{
+    "connections": [{
+        "port": 8080
+    }],
+    "registrations": [
+        {
+            "plugin": {
+                "register": "./sites/default"
+            },
+            "options": {
+                "routes": {
+                    "vhost": "localhost"
+                }
+            }
+        },
+        {
+            "plugin": {
+                "register": "./sites/cats"
+            },
+            "options": {
+                "routes": {
+                    "vhost": "cats.com"
+                }
+            }
+        },
+        {
+            "plugin": {
+                "register": "./sites/dogs"
+            },
+            "options": {
+                "routes": {
+                    "vhost": "dogs.com"
+                }
+            }
+        }
+    ]
+}
